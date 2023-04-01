@@ -1,0 +1,310 @@
+
+/**
+  |============================
+  | Colors
+  |============================
+*/
+
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+
+
+/**
+  |============================
+  | Fonts
+  |============================
+*/
+  --primary-font: Roboto, sans-serif;
+  --secodart-font: Raleway, sans-serif;
+
+  /**
+    |============================
+    | Text colors
+    |============================
+  */
+  --main-txt-cl: #434455;
+  --light-txt-cl: #2e2f42;
+
+}
+
+/**
+  |============================
+  | Body section
+  |============================
+*/
+
+.body-section {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-txt-cl);
+}
+/* reset */
+.list{
+list-style: none;
+}
+
+.link{
+  text-decoration: none;
+}
+
+
+.header-section {
+}
+.header-nav {
+}
+.header-link-logo {
+}
+.studio-logo {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link-studio {
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+   color: var(--light-txt-cl);
+}
+.header-link-portfolio {
+}
+.header-link-contacts {
+}
+
+.header-adress {
+}
+
+.header-link-mail {
+}
+
+.header-link-telefon {
+}
+
+/**
+  |============================
+  | Hero section
+  |============================
+*/
+.hero {
+}
+
+.hero-title {
+}
+
+.hero-btn {
+}
+
+/**
+  |============================
+  | Benefits section
+  |============================
+*/
+
+.main-benefits {
+}
+
+.benefits-headline {
+}
+
+.benefits-list {
+}
+
+.benefits-item {
+}
+
+.benefits-title {
+}
+
+.benefits-text {
+}
+
+/**
+  |============================
+  | What are we doing section
+  |============================
+*/
+
+.what-are-we-doing-section {
+}
+
+.what-are-we-doing-title {
+}
+
+.what-are-we-doing-list {
+}
+
+.what-are-we-doing-title-item {
+}
+
+.what-are-we-doing-img {
+}
+
+.what-are-we-doing-item {
+}
+
+/**
+  |============================
+  | Our team section
+  |============================
+*/
+.section-our-team {
+}
+
+.our-team-title {
+}
+
+.our-team-list {
+}
+
+.our-team-item {
+}
+
+.our-team-img {
+}
+
+.our-team-headline {
+}
+
+.our-team-text {
+}
+
+/**
+  |============================
+  | Footer 
+  |============================
+*/
+.footer {
+}
+
+.footer-link {
+}
+
+.footer-text {
+}
+
+/**
+  |============================
+  | Portfolio page
+  |============================
+*/
+
+/**
+  |============================
+  | Header
+  |============================
+*/
+
+.body-section {
+  font-family: Open Sans, sans-serif;
+}
+
+.header-link {
+}
+
+.header-nav {
+}
+
+.header-logo {
+}
+
+.header-list {
+}
+
+.header-item {
+}
+
+.header-adress {
+}
+
+.header-link-mail {
+}
+
+.header-link-telefon {
+}
+
+/**
+  |============================
+  | Buttons section
+  |============================
+*/
+.main-buttons {
+}
+
+.buttons-menu {
+}
+
+.buttons-menu-list {
+}
+
+.buttons-menu-item {
+}
+
+.buttons-menu-title {
+}
+
+.buttons-menu-btn {
+}
+
+.buttons-menu-image {
+}
+
+/**
+  |============================
+  | Finger image
+  |============================
+*/
+
+.finger-image-section {
+}
+
+.finger-image-section-img {
+}
+
+/**
+  |============================
+  | Images sectiom
+  |============================
+*/
+.images {
+}
+
+.images-list {
+}
+
+.images-item {
+}
+
+.images-photos {
+}
+
+.images-title {
+}
+
+.images-text {
+}
+
+/**
+  |============================
+  | Footer
+  |============================
+*/
+.footer {
+}
+
+.footer-link {
+}
+
+.footer-text {
+}

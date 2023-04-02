@@ -26,7 +26,8 @@
   |============================
 */
   --primary-font: Roboto, sans-serif;
-  --secodart-font: Raleway, sans-serif;
+  --secodary-font: Raleway, sans-serif;
+  
 
   /**
     |============================
@@ -35,6 +36,7 @@
   */
   --main-txt-cl: #434455;
   --light-txt-cl: #2e2f42;
+  --accent-txt-cl:#4d5ae5;
 
 }
 
@@ -55,13 +57,30 @@
 list-style: none;
 }
 
-.link{
+.header-link{
   text-decoration: none;
 }
 
-
-.header-section {
+.header-link {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.1x;
+  color: var(--accent-txt-cl);
+  font-family: var(--secodary-font);
 }
+
+.header-link-studio {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.1;
+  color: var(--light-txt-cl);
+  font-family: var(--secodary-font);
+}
+
+.header-list-list {}
+
+.header-item {}
+
 .header-nav {
 }
 .header-link-logo {
@@ -78,19 +97,12 @@ list-style: none;
     line-height: 1.5;
    color: var(--light-txt-cl);
 }
-.header-link-portfolio {
-}
-.header-link-contacts {
+
+.header.header-link-link:hover,
+.header-link-link:focus{
+color: var(--accent-txt-cl);
 }
 
-.header-adress {
-}
-
-.header-link-mail {
-}
-
-.header-link-telefon {
-}
 
 /**
   |============================

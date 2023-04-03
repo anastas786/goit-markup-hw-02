@@ -47,6 +47,7 @@
 
   --background: #2E2F42;
   --background-btn:#4d5ae5;
+  --bck-clr-main:#ffffff;
 }
 
 
@@ -62,17 +63,22 @@ list-style: none;
   text-decoration: none;
 }
 
+.adress-header{
+  font-style: normal
+}
 /**
   |============================
   | Body section
   |============================
 */
 
-.body-section {
+.body{
   font-family: var(--primary-font);
   font-size: 16px;
   line-height: 1.5;
   color: var(--main-txt-cl);
+  background-color: var(--bck-clr-main);
+
 }
 
 /**
@@ -84,19 +90,66 @@ list-style: none;
 .header-link-web {
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   color: var(--accent-txt-cl);
   font-family: var(--secodary-font);
+  letter-spacing: 0.03em
+  text-transform:uppercase
+
 }
 
 
 .header-link-studio {
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   color: var(--light-txt-cl);
   font-family: var(--secodary-font);
+  letter-spacing: 0.03em
+  text-transform: uppercase
 }
+
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light-txt-cl);
+
+}
+.header-link:hover{
+  color: #404bbf;
+}
+.header-link:focus{
+  color:#404bbf;
+}
+
+.adress-mail {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-txt-cl);
+}
+.adress-mail:hover{
+  color: #404bbf;
+}
+.adress-mail:focus{
+  color: #404bbf;
+}
+
+.adress-tel {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-txt-cl);
+}
+.adress-tel:hover{
+  color: #404bbf;
+}
+.adress-tel:focus {
+  color: #404bbf;
+}
+
 
 
 /**
@@ -123,7 +176,9 @@ list-style: none;
   font-family: var(--primary-font);
   color: var(--mail-txt-cl);
 }
-
+.header-adress:hover{
+  color: #404bbf;
+}
 
 /**
   |============================

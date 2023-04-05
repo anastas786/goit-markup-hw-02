@@ -131,7 +131,6 @@ color: var(--accent-txt-cl);
 }
 
 
-
 .header-link-studio {
   font-weight: 800;
   font-size: 18px;
@@ -167,19 +166,6 @@ color: var(--accent-txt-cl);
   color: #404bbf;
 }
 .adress-mail:focus{
-  color: #404bbf;
-}
-
-.adress-tel {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-txt-cl);
-}
-.adress-tel:hover{
-  color: #404bbf;
-}
-.adress-tel:focus {
   color: #404bbf;
 }
 

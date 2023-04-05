@@ -87,8 +87,7 @@ list-style: none;
   |============================
 */
 
-
-.header-list {
+.header-nav {
 font-family: "Raleway", sans-serif;
 font-weight: 800;
 font-size: 18px;
@@ -198,14 +197,12 @@ color: #ffffff;
 cursor: pointer;
 }
 
-.hero-btn:hover:{
+.hero-btn:focus{
 background-color: #404BBF;
 }
-
-.hero-btn:focus:{
-background-color: #404BBF;
+.hero-btn:hover{
+  background-color: #404BBF;
 }
-
 
 /**
   |============================

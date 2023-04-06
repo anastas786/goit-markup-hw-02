@@ -75,7 +75,6 @@ list-style: none;
 .body{
   font-family: var(--primary-font);
   font-size: 16px;
-  line-height: 1.5;
   color: var(--main-txt-cl);
   background-color: var(--bck-clr-main);
 
@@ -97,20 +96,8 @@ text-transform: uppercase;
 color: var(--accent-txt-cl);
 }
 
-.link {
-  text-decoration: none;
-}
-
 .header-studio {
   color: var(--light-txt-cl);
-}
-
-.list{
-  list-style: none;
-}
-
-.link{
-  text-decoration: none;
 }
 
 .header-web:hover{
@@ -201,16 +188,11 @@ background-color: #404BBF;
   | Benefits section
   |============================
 */
-.list {
-  list-style: none;
-}
-
 .benefits {
 }
 
 .benefits-list {
 }
-
 
 .benefits-title {
   font-weight: 500;
@@ -247,9 +229,6 @@ color: var(--main-txt-cl);
   text-transform: capitalize;
   color: var(--light-txt-cl);
 }
-.list{
-  list-style: none
-}
 
 .img-section-item {}
 
@@ -276,8 +255,6 @@ color: var(--main-txt-cl);
 }
 
 .team-list {}
-
-.list {list-style: none}
 
 .team-item {
 background-color: #FFFFFF;
@@ -319,8 +296,6 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
-
-.link {}
 
 .footer-studio {
 font-weight: 800;
@@ -393,7 +368,6 @@ color: var(--footer-txt-cl);
 .buttons-menu-list {
 
 }
-.list {}
 
 .buttons-menu-item {
 }
@@ -435,9 +409,6 @@ background-color:#404BBF;
   | Images sectiom
   |============================
 */
-.link{
-  text-decoration: none;
-}
 
 .images-title {
 font-weight: 500;

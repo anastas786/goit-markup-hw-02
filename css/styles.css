@@ -100,15 +100,6 @@ color: var(--accent-txt-cl);
   color: var(--light-txt-cl);
 }
 
-.header-web:hover{
-  color: #404bbf;
-}
- 
-.header-web:focus {
-  color: #404bbf;
-}
-
-
 .header-link-studio {
   font-weight: 800;
   font-size: 18px;

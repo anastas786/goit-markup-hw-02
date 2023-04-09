@@ -50,10 +50,36 @@
   --bck-clr-main:#ffffff;
 }
 
+/**
+  |============================
+  | Base styles
+  |============================
+*/
+/* RESET  start*/
 
-/* RESET */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img{
+  display: block;
+}
+
+.section{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .list{
 list-style: none;
+padding: 0;
+margin: 0;
 }
 
 .decoration{
@@ -66,6 +92,17 @@ list-style: none;
 .adress-header{
   font-style: normal
 }
+/* Reset end */
+
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid red;
+}
+
 /**
   |============================
   | Body section
@@ -86,6 +123,15 @@ list-style: none;
   |============================
 */
 
+.header-container{
+  display: flex;
+  align-items: center;
+}
+
+
+.header-studio{
+}
+
 .header-web {
 font-family: "Raleway", sans-serif;
 font-weight: 800;
@@ -97,6 +143,7 @@ color: var(--accent-txt-cl);
 }
 
 .header-studio {
+  margin-right: 76px;
   color: var(--light-txt-cl);
 }
 
@@ -110,7 +157,22 @@ color: var(--accent-txt-cl);
   text-transform: uppercase;
 }
 
+.header-list {
+  display:flex;
+  align-items: center;
+}
+
+.header-nav{
+ display:flex;
+ align-items: center;
+ margin-right: auto
+}
+
 .header-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 40px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -125,7 +187,11 @@ color: var(--accent-txt-cl);
   color:#404bbf;
 }
 
+.adress {display: flex;}
+
+
 .adress-mail {
+  margin-right: 24px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -144,11 +210,16 @@ color: var(--accent-txt-cl);
   | Hero section
   |============================
 */
+
 .hero {
   background-color: var(--background);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
+margin-left: 472px;
+margin-right: 472px;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;

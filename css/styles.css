@@ -143,7 +143,7 @@ margin: 0;
 .header-container{
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #E7E9FC;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 
@@ -185,10 +185,11 @@ color: var(--accent-txt-cl);
 }
 
 .header-item-end {
+gap: 40px;
+display: flex;
+align-items: center;
 margin-right: 0;
 }
-
-
 
 .header-link {
   display: block;
@@ -211,8 +212,9 @@ margin-right: 0;
 
 .adress {
 display: flex;
-gap: 40;
+gap: 40px;
 }
+
 
 .adress-mail-end {
   margin-right: 0;
@@ -264,6 +266,7 @@ margin-bottom: 48px;
 display: block;
 min-width: 169px;
 height: 56px;
+border-radius: 4px;
 padding: 16px 32px;
 background-color: #4D5AE5;
 font-family: "Roboto", sans-serif;
@@ -298,10 +301,10 @@ width: calc((100% - 72px) / 4);
 .benefits-list {
   display: flex;
   gap: 24px;
+  margin-bottom: 8px;
 }
 
 .benefits-titles {
-margin-bottom: 8px;
 }
 
 .benefits-title {
@@ -500,6 +503,7 @@ color: var(--footer-txt-cl);
 }
 
 .buttons-menu-list {
+border-radius: 4px;
 justify-content: center;
 padding-top: 96px;
 margin-bottom: 72px;

@@ -19,6 +19,7 @@
   --white: #ffffff;
   --dairy: #fcfcfc;
 
+
 /**
   |============================
   | Fonts
@@ -48,6 +49,15 @@
   --background: #2e2f42;
   --background-btn:#4d5ae5;
   --bck-clr-main:#ffffff;
+
+
+  /**
+    |============================
+    | Others
+    |============================
+  */
+
+  --indent:24px
 }
 
 /**
@@ -126,6 +136,7 @@ margin: 0;
 .header-container{
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #E7E9FC
 }
 
 
@@ -212,28 +223,36 @@ color: var(--accent-txt-cl);
 */
 
 .hero {
-  background-color: var(--background);
-  padding-top: 188px;
-  padding-bottom: 188px;
+padding-top: 188px;
+padding-bottom: 292px;
+background-color: var(--background);
+margin-left: auto;
+margin-right: auto;
 }
 
 .hero-title {
-margin-left: 472px;
-margin-right: 472px;
+max-width: 496px;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: #ffffff;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 48px;
 }
 
 .hero-btn {
+min-width: 169px;
+min-height: 56px;
+padding: 16px 32px;
 background-color: #4D5AE5;
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
+border-radius: 4px;
 color: #ffffff;
 cursor: pointer;
 }
@@ -254,6 +273,8 @@ background-color: #404BBF;
 }
 
 .benefits-list {
+  display: flex;
+  gap: 24px;
 }
 
 .benefits-title {
@@ -281,7 +302,10 @@ color: var(--main-txt-cl);
   |============================
 */
 
-.img-section {}
+.img-section {
+  display: flex;
+  gap: 24px;
+}
 
 .img-section-title {
   font-size: 36px;
@@ -316,7 +340,10 @@ color: var(--main-txt-cl);
   color: var(--light-txt-cl);
 }
 
-.team-list {}
+.team-list {
+display: flex;
+gap: 24px;
+}
 
 .team-item {
 background-color: #FFFFFF;
@@ -370,6 +397,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .footer-text {
+width: 264px;
+height: 72px;
 font-size: 16px;
 line-height: 1.2;
 font-family:var(--primary-font);
@@ -428,20 +457,30 @@ color: var(--footer-txt-cl);
 .buttons-menu {}
 
 .buttons-menu-list {
-
+padding-top: 96px;
+padding-bottom: 72px;
+margin-left: 427px;
+margin-right: 427;
+display: flex;
+gap: 24px;
 }
 
 .buttons-menu-item {
+
 }
 
 .buttons-menu-title {}
 
 .buttons-menu-btn {
+  min-width: 69px;
+  min-height: 48px;
+  padding: 12px 24px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
+  border-radius: 4px;
   letter-spacing: 0.04em;
   color: var(--accent-txt-cl);
   background-color: var(--footer-txt-cl);
@@ -471,6 +510,16 @@ background-color:#404BBF;
   | Images sectiom
   |============================
 */
+
+.images-list {
+display: flex;
+gap: var(--indent);
+flex-wrap: wrap;
+}
+
+.images-item {
+width: calc((100%-(24px*8))/9);
+}
 
 .images-title {
 font-weight: 500;

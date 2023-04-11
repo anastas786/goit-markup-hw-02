@@ -84,13 +84,28 @@ p {
   margin: 0;
 }
 
-img{
+.img{
   display: block;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .section{
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.benefits {padding-bottom: 120px;
 }
 
 .list{
@@ -117,7 +132,6 @@ margin: 0;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid red;
 }
 
 /**
@@ -188,7 +202,6 @@ color: var(--accent-txt-cl);
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
-  margin-right: 40px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -215,7 +228,6 @@ gap: 40px;
 
 
 .adress-mail {
-  margin-right: 24px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -256,6 +268,7 @@ margin-bottom: 48px;
 }
 
 .hero-btn {
+margin: auto;
 display: block;
 min-width: 169px;
 height: 56px;
@@ -284,8 +297,6 @@ background-color: #404BBF;
   | Benefits section
   |============================
 */
-.benefits {
-}
 
 .benefits-item {
 width: calc((100% - 72px) / 4);
@@ -294,7 +305,6 @@ width: calc((100% - 72px) / 4);
 .benefits-list {
   display: flex;
   gap: 24px;
-
 }
 
 .benefits-titles {
@@ -435,8 +445,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .footer-text {
+letter-spacing: 0.02em;
 width: 264px;
-height: 72px;
 font-size: 16px;
 line-height: 1.2;
 font-family:var(--primary-font);
@@ -457,12 +467,6 @@ color: var(--footer-txt-cl);
   |============================
 */
 
-.adress-mail {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-txt-cl);
-}
 
 .adress-mail:hover {
   color: #404bbf;
@@ -498,16 +502,12 @@ color: var(--footer-txt-cl);
 
 .buttons-menu-list {
 justify-content: center;
-padding-top: 96px;
 margin-bottom: 72px;
-margin-left: 427px;
-margin-right: 427;
 display: flex;
 gap: 24px;
 }
 
 .buttons-menu-item {
-
 }
 
 .buttons-menu-title {}

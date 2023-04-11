@@ -307,8 +307,10 @@ width: calc((100% - 72px) / 4);
   gap: 24px;
 }
 
-.benefits-titles {
+.benefits-items {
+  padding-bottom: 120px;
 }
+
 
 .benefits-title {
   font-weight: 500;
